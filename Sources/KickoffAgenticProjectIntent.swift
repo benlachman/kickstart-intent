@@ -41,7 +41,7 @@ struct KickoffShortcuts: AppShortcutsProvider {
             phrases: [
                 "Kick off agentic project in \(.applicationName)",
                 "Create agentic project with \(.applicationName)",
-                "Start new agentic project"
+                "Start new agentic project in \(.applicationName)"
             ],
             shortTitle: "Kick off Project",
             systemImageName: "folder.badge.plus"
