@@ -39,9 +39,9 @@ struct KickoffShortcuts: AppShortcutsProvider {
         AppShortcut(
             intent: KickoffAgenticProjectIntent(),
             phrases: [
-                "Kick off agentic project in \(.applicationName)",
-                "Create agentic project with \(.applicationName)",
-                "Start new agentic project in \(.applicationName)"
+                "Kick off agentic project \(\.$intentText) in \(.applicationName)",
+                "Create agentic project \(\.$intentText) with \(.applicationName)",
+                "Start new project \(\.$intentText) in \(.applicationName)"
             ],
             shortTitle: "Kick off Project",
             systemImageName: "folder.badge.plus"
