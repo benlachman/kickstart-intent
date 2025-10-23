@@ -95,16 +95,18 @@ else
 fi
 
 echo ""
-echo "Step 5: Enable Siri permissions"
+echo "Step 5: Enable Siri permissions (macOS 15 Sequoia)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  1. Open System Settings > Siri & Spotlight"
-echo "  2. Scroll to 'Siri & Spotlight Suggestions'"
-echo "  3. Find 'KickstartIntent' and enable:"
-echo "     ✅ Learn from this App"
-echo "     ✅ Show in Spotlight"
+echo "  1. Open System Settings > Apple Intelligence & Siri (or Siri)"
+echo "  2. Enable 'Ask Siri' if not already enabled"
+echo "  3. (Optional) Click 'Siri Suggestions & Privacy' or 'About Siri...'"
+echo "  4. Find 'KickstartIntent' in the app list and enable:"
+echo "     ✅ Learn from this Application"
 echo "     ✅ Show Siri Suggestions"
 echo ""
-echo "Press Enter when completed..."
+echo "  Note: These settings may be under Spotlight in macOS 15"
+echo ""
+echo "Press Enter when completed (or skip if already enabled)..."
 read -r
 
 echo ""
