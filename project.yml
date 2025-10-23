@@ -55,3 +55,4 @@ targets:
         NSSupportsSuddenTermination: true
         NSAppleEventsUsageDescription: "This app needs to open folders and launch Claude Desktop"
         NSAppleScriptEnabled: true
+        NSSiriUsageDescription: "This app uses Siri to create agentic project folders with your voice commands"
