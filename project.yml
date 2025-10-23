@@ -13,8 +13,8 @@ settings:
   MACOSX_DEPLOYMENT_TARGET: "14.0"
   ENABLE_HARDENED_RUNTIME: YES
   ENABLE_APP_SANDBOX: NO
-  CODE_SIGN_IDENTITY: "-"
   CODE_SIGN_STYLE: Automatic
+  DEVELOPMENT_TEAM: ""  # Xcode will auto-fill this with your team
 
 targets:
   KickstartIntent:
